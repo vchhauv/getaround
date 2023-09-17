@@ -1,0 +1,8 @@
+[('Preprocessing', ColumnTransformer(transformers=[('num',
+                                 Pipeline(steps=[('scaler', StandardScaler())]),
+                                 ['mileage', 'engine_power']),
+                                ('cat',
+                                 Pipeline(steps=[('encoder',
+                                                  OneHotEncoder(drop='first',
+                                                                handle_unknown='ignore'))]),
+                      ...

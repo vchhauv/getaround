@@ -1,0 +1,15 @@
+artifact_uri: file:///home/snoirak/projects/getaround/mlflow/mlruns/515851487349325251/33a6953cd77c4f52887edc4d5838b7ab/artifacts
+end_time: 1694977553977
+entry_point_name: ''
+experiment_id: '515851487349325251'
+lifecycle_stage: active
+run_id: 33a6953cd77c4f52887edc4d5838b7ab
+run_name: nimble-snake-218
+run_uuid: 33a6953cd77c4f52887edc4d5838b7ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694977550693
+status: 3
+tags: []
+user_id: snoirak

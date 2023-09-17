@@ -1,0 +1,30 @@
+artifact_path: modeling_car_price
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.6
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.2.2
+mlflow_version: 2.7.0
+model_uuid: efa93b28d8af44368df42b18e6f3035c
+run_id: 33a6953cd77c4f52887edc4d5838b7ab
+signature:
+  inputs: '[{"type": "string", "name": "model_key"}, {"type": "long", "name": "mileage"},
+    {"type": "long", "name": "engine_power"}, {"type": "string", "name": "fuel"},
+    {"type": "string", "name": "paint_color"}, {"type": "string", "name": "car_type"},
+    {"type": "boolean", "name": "private_parking_available"}, {"type": "boolean",
+    "name": "has_gps"}, {"type": "boolean", "name": "has_air_conditioning"}, {"type":
+    "boolean", "name": "automatic_car"}, {"type": "boolean", "name": "has_getaround_connect"},
+    {"type": "boolean", "name": "has_speed_regulator"}, {"type": "boolean", "name":
+    "winter_tires"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2023-09-17 19:05:52.668012'

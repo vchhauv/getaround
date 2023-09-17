@@ -1,0 +1,15 @@
+artifact_uri: file:///home/snoirak/projects/getaround/mlflow/mlruns/515851487349325251/f22bd49441ee43c689fc711e1b1142c1/artifacts
+end_time: 1694977018933
+entry_point_name: ''
+experiment_id: '515851487349325251'
+lifecycle_stage: active
+run_id: f22bd49441ee43c689fc711e1b1142c1
+run_name: gentle-mare-103
+run_uuid: f22bd49441ee43c689fc711e1b1142c1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1694977015612
+status: 3
+tags: []
+user_id: snoirak

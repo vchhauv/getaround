@@ -1,0 +1,13 @@
+aliases: []
+creation_timestamp: 1694977553974
+current_stage: None
+description: null
+last_updated_timestamp: 1694977553974
+name: car_price
+run_id: 33a6953cd77c4f52887edc4d5838b7ab
+run_link: null
+source: file:///home/snoirak/projects/getaround/mlflow/mlruns/515851487349325251/33a6953cd77c4f52887edc4d5838b7ab/artifacts/modeling_car_price
+status: READY
+status_message: null
+user_id: null
+version: 4
